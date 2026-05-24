@@ -13,8 +13,8 @@ class Livro():
 
 ## Criando uma livraria como classe
 class Livraria():
- def __init__(self,lista):  # Define uma lista de livros na livraria como classe
-  self.lista=[]
+ def __init__(self,lista=[]):  # Define uma lista de livros na livraria como classe
+  self.lista=lista.copy() if lista else []
  def livros(self):  # Exibe todos os livros presentes na livraria
   for l in self.lista:
    print(f"[{l.ISBN}] {l.titulo} ({l.autor}, {l.paginas} páginas)")
@@ -26,13 +26,15 @@ class Livraria():
   for l in self.lista:
    if l.nacional==False:
     print(f"[{l.ISBN}] {l.titulo} ({l.autor}, {l.paginas} páginas)")
-# O "void" abaixo irá exibir o nome do autores de uma forma muito comum em livros, que é no formato "SOBRENOME, Nome". O formato "sobrenome nome" (nessa ordem) é padrão nos idiomas da Ásia Oriental e no húngaro.
+# O void abaixo irá exibir o nome do autores de uma forma muito comum em livros, que é no formato "SOBRENOME, Nome". O formato "sobrenome nome" (nessa ordem) é padrão nos idiomas da Ásia Oriental e no húngaro.
  def autores(self):
   for l in self.lista:
    print(f"{l.autor.split()[-1].upper()}, {l.autor.split()[0]}")
  def inserirlivro(self,l):  # Insere um livro na livraria
   if type(l)!=Livro:
-   print("Isto não é um livro.")
+   print("Isto não é um livro.")  # Não insere se não for um livro.
+  elif l in self.lista:
+   print(f"O livro {l.titulo} já está na livraria.")  # Não insere se o livro já está na livraria.
   else:
    self.lista.append(l)
    print(f"Livro {l.titulo} inserido.")
@@ -86,7 +88,7 @@ sapiens=Livro(8535933921,'Sapiens: Uma breve história da humanidade','Yuval Har
 vidas_secas=Livro(8501114782,'Vidas Secas','Graciliano Ramos',176,True)
 
 ## Criando a livraria
-livraria=Livraria([])
+livraria=Livraria()
 ## Inserindo cada livro criado, como objeto, na livraria
 livraria.inserirlivro(mcmlxxxiv)
 livraria.inserirlivro(a_arte_da_guerra)
@@ -114,6 +116,7 @@ livraria.inserirlivro(raizes_do_brasil)
 livraria.inserirlivro(romeu_e_julieta)
 livraria.inserirlivro(sapiens)
 livraria.inserirlivro(vidas_secas)
+
 livraria.livros()  # Retorna todos os livros incluídos (logo, disponíveis) na livraria
 livraria.livrosbrasileiros()  # Retorna os livros brasileiros disponíveis
 livraria.livrosestrangeiros()  # Retorna os livros estrangeiros disponíveis

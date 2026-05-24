@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE items>
+<items>
+    <row>
+       <ISBN>8579624169</ISBN>
+       <Titulo>Ainda Estou Aqui</Titulo>
+       <Autor>PAIVA, Marcelo</Autor>
+       <Paginas>296</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8535904174</ISBN>
+       <Titulo>Budapeste</Titulo>
+       <Autor>BUARQUE, Chico</Autor>
+       <Paginas>176</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8535911693</ISBN>
+       <Titulo>Capitães da Areia</Titulo>
+       <Autor>AMADO, Jorge</Autor>
+       <Paginas>283</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8542213742</ISBN>
+       <Titulo>Cidade de Deus</Titulo>
+       <Autor>LINS, Paulo</Autor>
+       <Paginas>400</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8535915389</ISBN>
+       <Titulo>Ciranda de Pedra</Titulo>
+       <Autor>FAGUNDES, Lygia</Autor>
+       <Paginas>224</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>9788538583</ISBN>
+       <Titulo>Dicionário Aurélio</Titulo>
+       <Autor>BUARQUE, Aurélio</Autor>
+       <Paginas>2272</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8573029633</ISBN>
+       <Titulo>Dicionário Houaiss</Titulo>
+       <Autor>HOUAISS, Antônio</Autor>
+       <Paginas>1986</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8578887239</ISBN>
+       <Titulo>Dom Casmurro</Titulo>
+       <Autor>ASSIS, Machado</Autor>
+       <Paginas>208</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8535933581</ISBN>
+       <Titulo>Ideias para adiar o fim do mundo</Titulo>
+       <Autor>KRENAK, Ailton</Autor>
+       <Paginas>104</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>6555320249</ISBN>
+       <Titulo>Laços de Família</Titulo>
+       <Autor>LISPECTOR, Clarice</Autor>
+       <Paginas>144</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>6580722029</ISBN>
+       <Titulo>O Pica-Pau Amarelo</Titulo>
+       <Autor>LOBATO, Monteiro</Autor>
+       <Paginas>144</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8534705259</ISBN>
+       <Titulo>Olhos de Água</Titulo>
+       <Autor>EVARISTO, Conceição</Autor>
+       <Paginas>116</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8526022253</ISBN>
+       <Titulo>O Povo Brasileiro: A formação e o sentido Brasil</Titulo>
+       <Autor>RIBEIRO, Darcy</Autor>
+       <Paginas>368</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8577533360</ISBN>
+       <Titulo>Pedagogia do Oprimido</Titulo>
+       <Autor>FREIRE, Paulo</Autor>
+       <Paginas>245</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8535925481</ISBN>
+       <Titulo>Raízes do Brasil</Titulo>
+       <Autor>BUARQUE, Sérgio</Autor>
+       <Paginas>256</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>8501114782</ISBN>
+       <Titulo>Vidas Secas</Titulo>
+       <Autor>RAMOS, Graciliano</Autor>
+       <Paginas>176</Paginas>
+       <Nacional>1</Nacional>
+    </row>
+    <row>
+       <ISBN>6555522267</ISBN>
+       <Titulo>1984</Titulo>
+       <Autor>ORWELL, George</Autor>
+       <Paginas>334</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>8594318596</ISBN>
+       <Titulo>A Arte da Guerra</Titulo>
+       <Autor>SUN, Tzu</Autor>
+       <Paginas>160</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>8594318782</ISBN>
+       <Titulo>A Metamorfose</Titulo>
+       <Autor>KAFKA, Franz</Autor>
+       <Paginas>96</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>8535930485</ISBN>
+       <Titulo>Assim Falou Zaratustra</Titulo>
+       <Autor>NIETZSCHE, Friedrich</Autor>
+       <Paginas>360</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>6555520809</ISBN>
+       <Titulo>Crime e Castigo</Titulo>
+       <Autor>DOSTOYéVSKY, Fyodor</Autor>
+       <Paginas>240</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>8535923438</ISBN>
+       <Titulo>Eu sou Malala</Titulo>
+       <Autor>YOUSAFZAI, Malala</Autor>
+       <Paginas>360</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>8580578892</ISBN>
+       <Titulo>O universo numa casca de noz</Titulo>
+       <Autor>HAWKING, Stephen</Autor>
+       <Paginas>224</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>6550970431</ISBN>
+       <Titulo>Orgulho e Preconceito</Titulo>
+       <Autor>AUSTEN, Jane</Autor>
+       <Paginas>288</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>8582850409</ISBN>
+       <Titulo>Romeu e Julieta</Titulo>
+       <Autor>SHAKESPEARE, William</Autor>
+       <Paginas>248</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+    <row>
+       <ISBN>8535933921</ISBN>
+       <Titulo>Sapiens: Uma breve história da humanidade</Titulo>
+       <Autor>HARARI, Yuval</Autor>
+       <Paginas>472</Paginas>
+       <Nacional>0</Nacional>
+    </row>
+</items>

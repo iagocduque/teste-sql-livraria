@@ -1,0 +1,157 @@
+'isbn'|'detalhes'
+'6580722029'|'{
+    "Autor": "LOBATO, Monteiro",
+    "Título": "O Pica-Pau Amarelo",
+    "Nacional": "Sim",
+    "Páginas": "144"
+}'
+'8535911693'|'{
+    "Autor": "AMADO, Jorge",
+    "Título": "Capitães da Areia",
+    "Nacional": "Sim",
+    "Páginas": "283"
+}'
+'8534705259'|'{
+    "Autor": "EVARISTO, Conceição",
+    "Título": "Olhos de Água",
+    "Nacional": "Sim",
+    "Páginas": "116"
+}'
+'8542213742'|'{
+    "Autor": "LINS, Paulo",
+    "Título": "Cidade de Deus",
+    "Nacional": "Sim",
+    "Páginas": "400"
+}'
+'8526022253'|'{
+    "Autor": "RIBEIRO, Darcy",
+    "Título": "O Povo Brasileiro: A formação e o sentido do Brasil",
+    "Nacional": "Sim",
+    "Páginas": "368"
+}'
+'8577533360'|'{
+    "Autor": "FREIRE, Paulo",
+    "Título": "Pedagogia do Oprimido",
+    "Nacional": "Sim",
+    "Páginas": "245"
+}'
+'8535925481'|'{
+    "Autor": "BUARQUE, Sérgio",
+    "Título": "Raízes do Brasil",
+    "Nacional": "Sim",
+    "Páginas": "256"
+}'
+'8535915389'|'{
+    "Autor": "FAGUNDES, Lygia Telles",
+    "Título": "Ciranda de Pedra",
+    "Nacional": "Sim",
+    "Páginas": "224"
+}'
+'8579624169'|'{
+    "Autor": "PAIVA, Marcelo",
+    "Título": "Ainda Estou Aqui",
+    "Nacional": "Sim",
+    "Páginas": "296"
+}'
+'8501114782'|'{
+    "Autor": "RAMOS, Graciliano",
+    "Título": "Vidas Secas",
+    "Nacional": "Sim",
+    "Páginas": "176"
+}'
+'9788538583'|'{
+    "Autor": "BUARQUE, Aurélio",
+    "Título": "Dicionário Aurélio",
+    "Nacional": "Sim",
+    "Páginas": "2272"
+}'
+'8573029633'|'{
+    "Autor": "HOUAISS, Antônio",
+    "Título": "Dicionário Houaiss",
+    "Nacional": "Sim",
+    "Páginas": "1986"
+}'
+'8578887239'|'{
+    "Autor": "ASSIS, Machado de",
+    "Título": "Dom Casmurro",
+    "Nacional": "Sim",
+    "Páginas": "208"
+}'
+'8535904174'|'{
+    "Autor": "BUARQUE, Chico",
+    "Título": "Budapeste",
+    "Nacional": "Sim",
+    "Páginas": "176"
+}'
+'8535933581'|'{
+    "Autor": "KRENAK, Ailton",
+    "Título": "Ideias para adiar o fim do mundo",
+    "Nacional": "Sim",
+    "Páginas": "104"
+}'
+'6555320249'|'{
+    "Autor": "LISPECTOR, Clarice",
+    "Título": "Laços de Família",
+    "Nacional": "Sim",
+    "Páginas": "144"
+}'
+'8535923438'|'{
+    "Autor": "YOUSAFZAI, Malala",
+    "Título": "Eu sou Malala",
+    "Nacional": "Não",
+    "Páginas": "360"
+}'
+'8594318596'|'{
+    "Autor": "SUN, Tzu",
+    "Título": "A Arte da Guerra",
+    "Nacional": "Não",
+    "Páginas": "160"
+}'
+'8594318782'|'{
+    "Autor": "KAFKA, Franz",
+    "Título": "A Metamorfose",
+    "Nacional": "Não",
+    "Páginas": "96"
+}'
+'8535930485'|'{
+    "Autor": "NIETZSCHE, Friedrich",
+    "Título": "Assim Falou Zaratustra",
+    "Nacional": "Não",
+    "Páginas": "360"
+}'
+'6555520809'|'{
+    "Autor": "DOSTOYÉVSKY, Fyodor",
+    "Título": "Crime e Castigo",
+    "Nacional": "Não",
+    "Páginas": "240"
+}'
+'6555522267'|'{
+    "Autor": "ORWELL, George",
+    "Título": "1984",
+    "Nacional": "Não",
+    "Páginas": "334"
+}'
+'8580578892'|'{
+    "Autor": "HAWKING, Stephen",
+    "Título": "O universo numa casca de noz",
+    "Nacional": "Não",
+    "Páginas": "224"
+}'
+'6550970431'|'{
+    "Autor": "AUSTEN, Jane",
+    "Título": "Orgulho e Preconceito",
+    "Nacional": "Não",
+    "Páginas": "288"
+}'
+'8582850409'|'{
+    "Autor": "SHAKESPEARE, William",
+    "Título": "Romeu e Julieta",
+    "Nacional": "Não",
+    "Páginas": "248"
+}'
+'8535933921'|'{
+    "Autor": "HARARI, Yuval",
+    "Título": "Sapiens: Uma breve história da humanidade",
+    "Nacional": "Não",
+    "Páginas": "472"
+}'

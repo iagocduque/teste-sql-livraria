@@ -1,0 +1,29 @@
+    isbn    |                                livro                                | páginas | nacional 
+------------+---------------------------------------------------------------------+---------+----------
+ 6580722029 | O Pica-Pau Amarelo (Monteiro Lobato)                                | 144     | Sim
+ 8535911693 | Capitães da Areia (Jorge Amado)                                     | 283     | Sim
+ 8534705259 | Olhos de Água (Conceição Evaristo)                                  | 116     | Sim
+ 8542213742 | Cidade de Deus (Paulo Lins)                                         | 400     | Sim
+ 8526022253 | O Povo Brasileiro: A formação e o sentido do Brasil (Darcy Ribeiro) | 368     | Sim
+ 8577533360 | Pedagogia do Oprimido (Paulo Freire)                                | 245     | Sim
+ 8535925481 | Raízes do Brasil (Sérgio Buarque)                                   | 256     | Sim
+ 8535915389 | Ciranda de Pedra (Lygia Fagundes)                                   | 224     | Sim
+ 8579624169 | Ainda Estou Aqui (Marcelo Paiva)                                    | 296     | Sim
+ 8501114782 | Vidas Secas (Graciliano Ramos)                                      | 176     | Sim
+ 9788538583 | Dicionário Aurélio (Aurélio Buarque)                                | 2272    | Sim
+ 8573029633 | Dicionário Houaiss (Antônio Houaiss)                                | 1986    | Sim
+ 8578887239 | Dom Casmurro (Machado de Assis)                                     | 208     | Sim
+ 8535904174 | Budapeste (Chico Buarque)                                           | 176     | Sim
+ 8535933581 | Ideias para adiar o fim do mundo (Ailton Krenak)                    | 104     | Sim
+ 6555320249 | Laços de Família (Clarice Lispector)                                | 144     | Sim
+ 8535923438 | Eu sou Malala (Malala Yousafzai)                                    | 360     | Não
+ 8594318596 | A Arte da Guerra (Sun Tzu)                                          | 160     | Não
+ 8594318782 | A Metamorfose (Franz Kafka)                                         | 96      | Não
+ 8535930485 | Assim Falou Zaratustra (Friedrich Nietzsche)                        | 360     | Não
+ 6555520809 | Crime e Castigo (Fyodor Dostoyévsky)                                | 240     | Não
+ 6555522267 | 1984 (George Orwell)                                                | 334     | Não
+ 8580578892 | O universo numa casca de noz (Stephen Hawking)                      | 224     | Não
+ 6550970431 | Orgulho e Preconceito (Jane Austen)                                 | 288     | Não
+ 8582850409 | Romeu e Julieta (William Shakespeare)                               | 248     | Não
+ 8535933921 | Sapiens: Uma breve história da humanidade (Yuval Harari)            | 472     | Não
+(26 rows)

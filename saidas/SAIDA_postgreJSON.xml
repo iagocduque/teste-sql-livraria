@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE items>
+<items>
+    <row>
+       <isbn>6580722029</isbn>
+       <detalhes>{
+    "Autor": "LOBATO, Monteiro",
+    "Título": "O Pica-Pau Amarelo",
+    "Nacional": "Sim",
+    "Páginas": "144"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535911693</isbn>
+       <detalhes>{
+    "Autor": "AMADO, Jorge",
+    "Título": "Capitães da Areia",
+    "Nacional": "Sim",
+    "Páginas": "283"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8534705259</isbn>
+       <detalhes>{
+    "Autor": "EVARISTO, Conceição",
+    "Título": "Olhos de Água",
+    "Nacional": "Sim",
+    "Páginas": "116"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8542213742</isbn>
+       <detalhes>{
+    "Autor": "LINS, Paulo",
+    "Título": "Cidade de Deus",
+    "Nacional": "Sim",
+    "Páginas": "400"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8526022253</isbn>
+       <detalhes>{
+    "Autor": "RIBEIRO, Darcy",
+    "Título": "O Povo Brasileiro: A formação e o sentido do Brasil",
+    "Nacional": "Sim",
+    "Páginas": "368"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8577533360</isbn>
+       <detalhes>{
+    "Autor": "FREIRE, Paulo",
+    "Título": "Pedagogia do Oprimido",
+    "Nacional": "Sim",
+    "Páginas": "245"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535925481</isbn>
+       <detalhes>{
+    "Autor": "BUARQUE, Sérgio",
+    "Título": "Raízes do Brasil",
+    "Nacional": "Sim",
+    "Páginas": "256"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535915389</isbn>
+       <detalhes>{
+    "Autor": "FAGUNDES, Lygia Telles",
+    "Título": "Ciranda de Pedra",
+    "Nacional": "Sim",
+    "Páginas": "224"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8579624169</isbn>
+       <detalhes>{
+    "Autor": "PAIVA, Marcelo",
+    "Título": "Ainda Estou Aqui",
+    "Nacional": "Sim",
+    "Páginas": "296"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8501114782</isbn>
+       <detalhes>{
+    "Autor": "RAMOS, Graciliano",
+    "Título": "Vidas Secas",
+    "Nacional": "Sim",
+    "Páginas": "176"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>9788538583</isbn>
+       <detalhes>{
+    "Autor": "BUARQUE, Aurélio",
+    "Título": "Dicionário Aurélio",
+    "Nacional": "Sim",
+    "Páginas": "2272"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8573029633</isbn>
+       <detalhes>{
+    "Autor": "HOUAISS, Antônio",
+    "Título": "Dicionário Houaiss",
+    "Nacional": "Sim",
+    "Páginas": "1986"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8578887239</isbn>
+       <detalhes>{
+    "Autor": "ASSIS, Machado de",
+    "Título": "Dom Casmurro",
+    "Nacional": "Sim",
+    "Páginas": "208"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535904174</isbn>
+       <detalhes>{
+    "Autor": "BUARQUE, Chico",
+    "Título": "Budapeste",
+    "Nacional": "Sim",
+    "Páginas": "176"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535933581</isbn>
+       <detalhes>{
+    "Autor": "KRENAK, Ailton",
+    "Título": "Ideias para adiar o fim do mundo",
+    "Nacional": "Sim",
+    "Páginas": "104"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>6555320249</isbn>
+       <detalhes>{
+    "Autor": "LISPECTOR, Clarice",
+    "Título": "Laços de Família",
+    "Nacional": "Sim",
+    "Páginas": "144"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535923438</isbn>
+       <detalhes>{
+    "Autor": "YOUSAFZAI, Malala",
+    "Título": "Eu sou Malala",
+    "Nacional": "Não",
+    "Páginas": "360"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8594318596</isbn>
+       <detalhes>{
+    "Autor": "SUN, Tzu",
+    "Título": "A Arte da Guerra",
+    "Nacional": "Não",
+    "Páginas": "160"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8594318782</isbn>
+       <detalhes>{
+    "Autor": "KAFKA, Franz",
+    "Título": "A Metamorfose",
+    "Nacional": "Não",
+    "Páginas": "96"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535930485</isbn>
+       <detalhes>{
+    "Autor": "NIETZSCHE, Friedrich",
+    "Título": "Assim Falou Zaratustra",
+    "Nacional": "Não",
+    "Páginas": "360"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>6555520809</isbn>
+       <detalhes>{
+    "Autor": "DOSTOYÉVSKY, Fyodor",
+    "Título": "Crime e Castigo",
+    "Nacional": "Não",
+    "Páginas": "240"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>6555522267</isbn>
+       <detalhes>{
+    "Autor": "ORWELL, George",
+    "Título": "1984",
+    "Nacional": "Não",
+    "Páginas": "334"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8580578892</isbn>
+       <detalhes>{
+    "Autor": "HAWKING, Stephen",
+    "Título": "O universo numa casca de noz",
+    "Nacional": "Não",
+    "Páginas": "224"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>6550970431</isbn>
+       <detalhes>{
+    "Autor": "AUSTEN, Jane",
+    "Título": "Orgulho e Preconceito",
+    "Nacional": "Não",
+    "Páginas": "288"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8582850409</isbn>
+       <detalhes>{
+    "Autor": "SHAKESPEARE, William",
+    "Título": "Romeu e Julieta",
+    "Nacional": "Não",
+    "Páginas": "248"
+}</detalhes>
+    </row>
+    <row>
+       <isbn>8535933921</isbn>
+       <detalhes>{
+    "Autor": "HARARI, Yuval",
+    "Título": "Sapiens: Uma breve história da humanidade",
+    "Nacional": "Não",
+    "Páginas": "472"
+}</detalhes>
+    </row>
+</items>

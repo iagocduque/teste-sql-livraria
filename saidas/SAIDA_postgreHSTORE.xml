@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE items>
+<items>
+    <row>
+       <isbn>6580722029</isbn>
+       <livro>O Pica-Pau Amarelo (Monteiro Lobato)</livro>
+       <páginas>144</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8535911693</isbn>
+       <livro>Capitães da Areia (Jorge Amado)</livro>
+       <páginas>283</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8534705259</isbn>
+       <livro>Olhos de Água (Conceição Evaristo)</livro>
+       <páginas>116</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8542213742</isbn>
+       <livro>Cidade de Deus (Paulo Lins)</livro>
+       <páginas>400</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8526022253</isbn>
+       <livro>O Povo Brasileiro: A formação e o sentido do Brasil (Darcy Ribeiro)</livro>
+       <páginas>368</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8577533360</isbn>
+       <livro>Pedagogia do Oprimido (Paulo Freire)</livro>
+       <páginas>245</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8535925481</isbn>
+       <livro>Raízes do Brasil (Sérgio Buarque)</livro>
+       <páginas>256</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8535915389</isbn>
+       <livro>Ciranda de Pedra (Lygia Fagundes)</livro>
+       <páginas>224</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8579624169</isbn>
+       <livro>Ainda Estou Aqui (Marcelo Paiva)</livro>
+       <páginas>296</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8501114782</isbn>
+       <livro>Vidas Secas (Graciliano Ramos)</livro>
+       <páginas>176</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>9788538583</isbn>
+       <livro>Dicionário Aurélio (Aurélio Buarque)</livro>
+       <páginas>2272</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8573029633</isbn>
+       <livro>Dicionário Houaiss (Antônio Houaiss)</livro>
+       <páginas>1986</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8578887239</isbn>
+       <livro>Dom Casmurro (Machado de Assis)</livro>
+       <páginas>208</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8535904174</isbn>
+       <livro>Budapeste (Chico Buarque)</livro>
+       <páginas>176</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8535933581</isbn>
+       <livro>Ideias para adiar o fim do mundo (Ailton Krenak)</livro>
+       <páginas>104</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>6555320249</isbn>
+       <livro>Laços de Família (Clarice Lispector)</livro>
+       <páginas>144</páginas>
+       <nacional>Sim</nacional>
+    </row>
+    <row>
+       <isbn>8535923438</isbn>
+       <livro>Eu sou Malala (Malala Yousafzai)</livro>
+       <páginas>360</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>8594318596</isbn>
+       <livro>A Arte da Guerra (Sun Tzu)</livro>
+       <páginas>160</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>8594318782</isbn>
+       <livro>A Metamorfose (Franz Kafka)</livro>
+       <páginas>96</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>8535930485</isbn>
+       <livro>Assim Falou Zaratustra (Friedrich Nietzsche)</livro>
+       <páginas>360</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>6555520809</isbn>
+       <livro>Crime e Castigo (Fyodor Dostoyévsky)</livro>
+       <páginas>240</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>6555522267</isbn>
+       <livro>1984 (George Orwell)</livro>
+       <páginas>334</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>8580578892</isbn>
+       <livro>O universo numa casca de noz (Stephen Hawking)</livro>
+       <páginas>224</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>6550970431</isbn>
+       <livro>Orgulho e Preconceito (Jane Austen)</livro>
+       <páginas>288</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>8582850409</isbn>
+       <livro>Romeu e Julieta (William Shakespeare)</livro>
+       <páginas>248</páginas>
+       <nacional>Não</nacional>
+    </row>
+    <row>
+       <isbn>8535933921</isbn>
+       <livro>Sapiens: Uma breve história da humanidade (Yuval Harari)</livro>
+       <páginas>472</páginas>
+       <nacional>Não</nacional>
+    </row>
+</items>

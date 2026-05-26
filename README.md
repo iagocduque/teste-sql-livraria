@@ -25,7 +25,7 @@ Para saber se a palavra é reservada em um código, como nas mostradas no _block
 
 Os comandos para a manipulação devem seguir os pilares do padrão __ACID:__
 * __*Atomicidade:*__ Ou os comandos são totalmente feitos ou, caso haja uma exceção ou invalidez, não são feitos. Não há "meio-termo" ou progressão parcial. Caso uma inserção de valores seja feita em uma linha de tabela, se houver um erro ou exceção (ex.: atribuição de um valor _text_ a uma célula _int_), nenhum dado será inserido. O código terá que ser corrigido.
-* __*Consistência:*__ Os dados devem ser consistentes com base em um comando. Pense em um saldo de __R$1000__ num banco, em que dois Pix de __+R$500__ em crédito e __-R$200__ em débito, respectivamente na ordem, são feitos. Se não houvesse exclusão mútua nesses Pix, haveria uma condição de corrida (inconsistência), pois, como os __-R$200__ veio depois, o saldo final seria __R$800__, ignorando o crédito de __+R$500__ que veio antes. Ou __R$1500__, se a ordem dos Pix fosse invertida. Para remediar o problema, as duas operações de Pix terão um "semáforo _mutex_", aí sim terá consistência, tendo o saldo de __R$1300__ esperado.
+* __*Consistência:*__ Os dados devem ser consistentes com base em um comando. Pense em um saldo de __R$1000__ num banco, em que dois Pix de __+R$500__ recebidos e __-R$200__ feitos, respectivamente na ordem. Se não houvesse exclusão mútua nesses Pix, haveria uma condição de corrida (inconsistência), pois, como os __-R$200__ veio depois, o saldo final seria __R$800__, ignorando o recibo de __+R$500__ que veio antes. Ou __R$1500__, se a ordem dos Pix fosse invertida. Para remediar o problema, as duas operações de Pix terão um semáforo _mutex_, aí sim terá consistência, tendo o saldo de __R$1300__ esperado.
 * __*Isolamento:*__ Basicamente a exclusão mútua de um acesso a uma célula (dado) por um comando, isso para evitar condições de corrida.
 * __*Durabilidade:*__ Se uma operação for feita, os dados após a operação se mantém na forma que estão, mesmo com eventos após ameaças humanas ou externas.
 
@@ -33,10 +33,17 @@ Da SQL básica, foram surgindo variantes da mesma a fim de melhor adaptação e 
 
 
 ## Alguns problemas nos bancos de dados...
+### _SQL Injection_
 Como todas as tecnologias e sistemas de informação, há preocupações com a segurança. Deve-se prestar atenção na confidencialidade (em que apenas pessoas autorizadas podem acessar), na integridade (em que nenhum dado foi alterado) e na disponibilidade (em que o conteúdo deve estar acessível e estável "24/7").
 
 Para o exemplo específico dos SGBD, há um ataque chamado _SQL Injection,_ em que uma pessoa mal-intencionada pode explorar vulnerabilidades (ex.: coleta nos milissegundos de tempo de resposta, concatenação com dados não-sigilosos, etc.) em um banco de dados de qualquer coisa (website, loja, empresa, etc.) e coletar informações sensíveis e confidenciais (ex.: senhas) para cometer crimes com as mesmas. Tipo, usar informações e vendê-las na deep web, usar senhas para invadir a conta bancária de alguém e roubar dinheiro ou vazar extrato na internet, substituir uma conta em rede social de alguém por algo para promover transações em criptomoedas, entre outras coisas.
 
+### _JSON_ e _HStore_ quebram a 1FN dos bancos de dados
+Nos dados e códigos em PostgreSQL, as colunas em formato JSON e HStore quebram a primeira forma normal (1FN) de um banco de dados. Por mais que sejam declarados como _NoSQL_ ("not only SQL"), ainda sim há uma estranheza.
+
+As formas normais são declaradas da seguinte forma:
+* __1FN:__ Cada célula não pode ter mais de um valor. Em uma tabela contendo jogos em uma loja, por exemplo, um jogo não pode ter mais de uma publisher. Deve ser criada uma tabela secundária, com uma chave estrangeira referindo ao ID do jogo, relativa ao jogo com diferentes publishers, dependendo da plataforma, do formato de mídia ou da região.
+* __2FN:__ As tabelas não podem ter mais de uma chave primária. Em uma tabela contendo CPFs e matrículas de pessoas, exemplificando com funcionários de uma empresa. A coluna que exige um valor de "matrícula" (int), essa como chave primária, deve estar em uma tabela secundária separada, com o CPF sendo a chave estrangeira.
 
 ## Banco de dados e orientação a objetos de uma biblioteca (livros)
 Sendo um repositório próprio meu, eu decidi criar este repositório usando, como base, os livros existentes em uma biblioteca, usando o ISBN dos mesmos como chave primária.
@@ -67,4 +74,4 @@ DELETE FROM Tabela; DROP TABLE Tabela;
 Para mais informações sobre os procedimentos nos códigos em cada linguagem de programação, leia os comentários (parte dos códigos para o compilador __não__ ler) nos respectivos arquivos.
 
 ### Requisitos não-funcionais
-O repositório foi feito com  _SQLite_ e, esse não sendo um banco de dados SQL e sim uma programação orientada a objetos, _Python._ Foram usados o terminal do Linux (mais especificamente o do Ubuntu 24.04 "Noble Numbat") e as IDEs dos websites [OneCompiler](https://onecompiler.com) e [SQLite Online](https://sqliteonline.com) para ler, executar e compilar os códigos.
+O repositório foi feito com  _SQLite, PostgreSQL_ com _JSON, PostgreSQL_ com _HStore_ e, esse não sendo um banco de dados SQL e sim uma programação orientada a objetos, _Python._ Foram usados o terminal do Linux (mais especificamente o do Ubuntu 24.04 "Noble Numbat") e as IDEs dos websites [OneCompiler](https://onecompiler.com) e [SQLite Online](https://sqliteonline.com) para ler, executar e compilar os códigos.

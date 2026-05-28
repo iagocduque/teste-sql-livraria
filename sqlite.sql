@@ -43,6 +43,7 @@ SELECT * FROM Livraria;
 -- Caso queira consultar de uma maneira específica, será necessário colocar uma condição depois do comando.
 SELECT * FROM Livraria ORDER BY Titulo; -- Consulta os livros em ordem alfabética, de A a Z
 SELECT * FROM Livraria ORDER BY Paginas; -- Consulta os livros por número de páginas, em ordem crescente por padrão
+SELECT * FROM Livraria WHERE Paginas > 1000; -- Consulta os livros com mais de 1000 páginas (ambos os Dicionários)
 SELECT * FROM Livraria WHERE Titulo LIKE "C%"; -- Consulta os livros que começam com a letra C
 SELECT * FROM Livraria WHERE NOT
  (Titulo LIKE "A %" OR Titulo LIKE "O %"); -- Títulos que NÃO começam com artigo definido
